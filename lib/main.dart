@@ -1,3 +1,6 @@
+import 'package:file_tracking_system/Auth/adminlogin.dart';
+import 'package:file_tracking_system/Auth/adminregister.dart';
+import 'package:file_tracking_system/Auth/employeelogin.dart';
 import 'package:file_tracking_system/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -32,6 +35,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: SplashScreen(),
+      routes: {
+        "/adminlogin": (context) => AdminLogin(),
+        "/adminregister": (context) => Adminregister(),
+        "/employeelogin": (context) => Employeelogin(),
+      },
     );
   }
 }

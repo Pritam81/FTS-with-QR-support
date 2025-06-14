@@ -24,14 +24,14 @@ class _MainScreenState extends State<MainScreen> {
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            // crossAxisAlignment: CrossAxisAlignment.center,
+            //crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // App Logo
               SizedBox(height: h * 0.15),
               Center(
                 child: Image.asset(
                   'assets/images/app_logo.png',
-                  height: h * 0.15,
+                  height: h * 0.1,
+                  width: w * 0.3,
                 ),
               ),
 
@@ -62,14 +62,14 @@ class _MainScreenState extends State<MainScreen> {
                 context,
                 title: "Admin Login",
                 icon: Icons.admin_panel_settings_rounded,
-                onTap: () => Navigator.pushNamed(context, '/adminLogin'),
+                onTap: () => Navigator.pushNamed(context, "/adminlogin"),
               ),
               const SizedBox(height: 20),
               _buildLoginButton(
                 context,
                 title: "Employee Login",
                 icon: Icons.badge_rounded,
-                onTap: () => Navigator.pushNamed(context, '/employeeLogin'),
+                onTap: () => Navigator.pushNamed(context, "/employeelogin"),
               ),
 
               const Spacer(),

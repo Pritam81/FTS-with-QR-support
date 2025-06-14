@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AdminRegister extends StatefulWidget {
-  const AdminRegister({super.key});
+class Adminregister extends StatefulWidget {
+  const Adminregister({super.key});
 
   @override
-  State<> createState() => _State();
+  State<Adminregister> createState() => _AdminregisterState();
 }
 
-class _State extends State<> {
+class _AdminregisterState extends State<Adminregister> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
