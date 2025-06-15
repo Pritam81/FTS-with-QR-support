@@ -69,7 +69,7 @@ Users can scan the QR code anytime to view the current status and history.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/file-tracking-system.git
+git clone https://github.com/Pritam81/file-tracking-system.git
 cd file-tracking-system
 flutter pub get
 flutter run
@@ -81,6 +81,6 @@ Suggestions or feedback? Kindly reach out or raise an issue. Your input is valua
 
 📧 Contact
 Developer: Pritam Kumar
-Email: your-email@example.com
+Email: pritamjunior26@gmail.com
 Organization: Visito Ventures Pvt. Ltd.
 Tech Stack: Flutter, Dart, MySQL, PHP/Node.js
